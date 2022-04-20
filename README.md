@@ -26,10 +26,12 @@ The data set contains the following diseases:
   . Vascular lesion
   
 # Summary
-The final model shows that model is not overfit. This is because, we were able to resolve the class rebalance issue by adding more samples of images using Augumentor.
-The model is able to predict well by using multiple layers of Convolution 2D (Upto 256).
-Further, the model is able to generalize well by using Batch Normalization in multiple layers.
-In addition to the above, dropout (0.5) has been added to generalize the model.
-The training accuracy has improved with a value of 0.8863 whereas validation accuracy is now 0.8374.
-The training loss is reduced to 0.2916 and validation loss is reduced to 0.5235
-The model can be further improved by adding more images.
+
+1. The above model shows that model is not overfit. This is because, we were able to resolve the class rebalance issue by adding more samples of images using Augumentor.
+2. The model is able to predict well by using multiple layers of Convolution 2D (Upto 256).
+3. Further, the model is able to generalize well by using Batch Normalization in multiple layers.
+4. In addition to the above, dropout (0.5) has been added to generalize the model.
+5. The training accuracy has improved with a value of  0.9105 whereas validation accuracy is now 0.8295
+6. The training loss is reduced to 0.2182  and validation loss is reduced to 0.4978
+7. The model can be further improved by adding more images.
+
